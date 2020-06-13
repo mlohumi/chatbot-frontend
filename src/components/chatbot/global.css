@@ -1,0 +1,29 @@
+.chatbotBody {
+  background-image: url("background.jpg");
+  /* filter: blur(8px); */
+  backdrop-filter: opacity(0.2);
+  -webkit-backdrop-filter: opacity(0.2);
+  /* backdrop-filter: blur(0.8); */
+  /* -webkit-backdrop-filter: blur(0.8); */
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalHeader {
+  background-color: #f2efea;
+}
+.botDialog {
+  background-color: #f2efea;
+  border: 1px inset #0b2341;
+}
+.userDialog {
+  background-color: #f2efea;
+  border: 1px outset #0b2341;
+}
+.messageInput:focus {
+  outline: none !important;
+  border: 1px solid #0b2341;
+  box-shadow: 0 0 100px #0b2341;
+}
